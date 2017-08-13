@@ -1,0 +1,26 @@
+{
+  "my-meals": {
+    "title": "Recipes",
+    "component": "MealList",
+    "icon": "Cutlery",
+    "order": 1
+  },
+  "preparation": {
+    "title": "Preparation",
+    "component": "Preparation",
+    "icon": "Timer",
+    "order": 2
+  },
+  "expiration": {
+    "title": "Meal Plan Calendar",
+    "component": "Calendar",
+    "icon": "Calendar",
+    "order": 3
+  },
+  "my-fridge": {
+    "title": "Fridge",
+    "component": "Fridge",
+    "icon": "Fridge",
+    "order": 4
+  }
+}
