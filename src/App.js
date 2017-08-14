@@ -4,7 +4,7 @@ import WizardEngine from './components/WizardEngine';
 import RenderActive from './components/WizardEngine/RenderActive';
 import Navigation from './components/Navigation';
 import views from './data/views.json';
-import screens from './components/screens';
+import ViewComponents from './components/Views';
 import SearchBar from './components/SearchBar';
 
 const NavigationContainer = glamorous.div({
@@ -29,7 +29,7 @@ class App extends Component {
         <SearchBar />
         <WizardEngine
           steps={views}
-          stepComponents={screens}
+          stepComponents={ViewComponents}
           Wrapper={NavigationContainer}
         >
           <Navigation />
